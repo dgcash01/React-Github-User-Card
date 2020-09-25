@@ -6,12 +6,12 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video
+      {/* <video
         src="/videos/video-1.mp4"
         autoPlay
         loop
         muted
-      />
+      /> */}
       {/* <img src='img-5.jpg' alt= 'Eureka Ice House Demo'></img> */}
       {/* <h1>Your Demolition Awaits!</h1> */}
       <p>Contact us today.</p>
@@ -28,7 +28,7 @@ function HeroSection() {
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
-          Check out the Gallery
+          Sign Up
         </Button>
       </div>
     </div>

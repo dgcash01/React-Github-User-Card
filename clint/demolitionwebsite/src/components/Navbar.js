@@ -30,7 +30,7 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             C & L Demolition &nbsp; &nbsp;
-            <i class="fas fa-hard-hat" />
+            <i className="fas fa-hard-hat" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -50,27 +50,18 @@ function Navbar() {
                 Services
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                to="/gallery"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Gallery
-              </Link>
-            </li>
 
             <li>
               <Link
-                to="/contact"
+                to="/sign-up"
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                Contact
+                Sign Up
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">Contact</Button>}
+          {button && <Button buttonStyle="btn--outline">Sign Up</Button>}
         </div>
       </nav>
     </>
